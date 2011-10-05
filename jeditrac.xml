@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.7.0" method="upgrade">
+	<name>JediTRAC</name>
+	<creationDate>January 31 2012</creationDate>
+	<copyright>(c)2012, United Church of Jediism</copyright>
+	<version>0.5</version>
+	<description>Jediist Training Records &amp; Advancement Coordinator</description>
+	<install>
+	</install>
+	<uninstall>
+	</uninstall>
+	<files folder="site">
+		<filename>controller.php</filename>
+		<filename>jeditrac.php</filename>
+		<folder>media</folder>
+	</files>
+	<administration>
+		<menu view="cPanel" img="component/com_jeditrac/media/icons/menu/cpanel.png">COM_JEDITRAC</menu>
+		<submenu>
+			<menu view="userManager" img="component/com_jeditrac/media/icons/menu/users.png">COM_JEDITRAC_USERMGR</menu>
+			<menu view="orgManager" img="component/com_jeditrac/media/icons/menu/orgs.png">COM_JEDITRAC_ORGMGR</menu>
+			<menu view="commManager" img="component/com_jeditrac/media/icons/menu/community.png">COM_JEDITRAC_COMMMGR</menu>
+			<menu view="backupManager" img="component/com_jeditrac/media/icons/menu/backup.png">COM_JEDITRAC_BACKUPMGR</menu>
+			<menu view="updateManager" img="component/com_jeditrac/media/icons/menu/update.png">COM_JEDITRAC_UPDATEMGR</menu>
+			<menu view="showConfig" img="component/com_jeditrac/media/icons/menu/settings.png">COM_JEDITRAC_CONFIG</menu>
+			<menu view="showTools" img="component/com_jeditrac/media/icons/menu/tools.png">COM_JEDITRAC_TOOLS</menu>
+			<menu view="showFeedback" img="component/com_jeditrac/media/icons/menu/smiley.png">COM_JEDITRAC_FEEDBACK</menu>
+			<menu view="showHelp" img="component/com_jeditrac/media/icons/menu/help.png">COM_JEDITRAC_HELP</menu>
+		</submenu>
+		<files>
+			<filename>index.html</filename>
+			<filename>jeditrac.php</filename>
+			<filename>controller.php</filename>
+			<folder>media</folder>
+		</files>
+	</administration>
+</extension>
